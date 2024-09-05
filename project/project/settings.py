@@ -76,9 +76,9 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': '<dbname>',
+        'NAME': 'DIGuidesDB',
         'USER': 'postgres',
-        'PASSWORD': '<password>',
+        'PASSWORD': 'postgres',
         'HOST': 'localhost',
         'PORT': 5432,
     }
